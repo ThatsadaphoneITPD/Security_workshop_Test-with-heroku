@@ -12,14 +12,13 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src="Signup.php"></script>
   </head>
- <body> 
-   <?php echo '<p>Hello World</p>'; ?> 
+ <body>
  	<section class="header">
  		<nav class="navbar navbar-expand-lg navbar-light">
  			<div class='container'>
  				<div class="navbar-brand">
  		  	 <a class="navbar-brand">
- 		  	 	<diV class="FASHA"><h4>ZARA</h4></diV></a> 	
+ 		  	 	<diV class="FASHA"><?php echo '<h4>Toy ZARA</h4>'; ?></diV></a> 	
  		   </div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fa fa-bars"></i>
